@@ -1,0 +1,23 @@
+[
+  {
+    "route": "150",
+    "direction": "1",
+    "stop": "Große Rainstraße",
+    "type": "bus",
+    "desription": "Bus 150 in Richtung Estebogen ab Große Rainstr."
+  },
+  {
+    "route": "62",
+    "direction": "0",
+    "stop": "Neumühlen",
+    "type": "ferry",
+    "description": "Schiff 62 Richtung Finkenwerder ab Neumühlen/Övelgönne"
+  },
+  {
+    "route": "S31",
+    "direction": "0",
+    "stop": "Altona",
+    "type": "train",
+    "description": "S-Bahn 31 Richtung Harburg ab Altona"
+  }
+]
