@@ -2,6 +2,10 @@
 
 A raspberry pi offline transit schedule, showing the upcoming departures for selected train & bus stations on a 2" e-ink display.
 
+https://twitter.com/Scarysize/status/942024967562162176
+
+![](https://i.imgur.com/1neyuvm.jpg)
+
 ## Prerequisites
 
 You need:
