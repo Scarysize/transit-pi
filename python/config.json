@@ -1,10 +1,17 @@
 [
   {
-    "route": "150",
+    "route": "E86",
     "direction": "1",
-    "stop": "Große Rainstraße",
+    "stop": "Altona",
     "type": "bus",
-    "desription": "Bus 150 in Richtung Estebogen ab Große Rainstr."
+    "description": "Bus in Richtung Teufelsbrück"
+  },
+  {
+    "route": "15",
+    "direction": "0",
+    "stop": "Altona",
+    "type": "bus",
+    "desription": "Bus Richtung Alsterchaussee"
   },
   {
     "route": "62",

@@ -5,7 +5,7 @@ const path = require('path');
 
 const {formatSeconds} = require('./src/time');
 
-function flatten(acc = [], items = []) {
+function flatten(acc, items) {
   return [...acc, ...items];
 }
 
@@ -35,7 +35,7 @@ app.post('/trips', (request, response) => {
   const queries = request.body;
   const trips = queries
     .map(query => getTrips(query).map(formatByQuery(query)))
-    .reduce(flatten)
+    .reduce(flatten, [])
     .sort(sortByTime)
     .map(trip => Object.assign({}, trip, {time: formatSeconds(trip.time)}))
     .slice(0, 9);

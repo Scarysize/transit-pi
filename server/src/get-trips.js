@@ -1,6 +1,8 @@
 const timeHelper = require('./time');
 
-const flatten = (acc = [], items = []) => [...acc, ...items];
+function flatten(acc, items) {
+  return [...acc, ...items];
+}
 
 function getWeekDayName() {
   const days = [
@@ -129,7 +131,7 @@ module.exports = db => {
 
     const relevantTrips = stopIds
       .map(tripsOfStop)
-      .reduce(flatten)
+      .reduce(flatten, [])
       .filter(isOfRoute)
       .map(addTime)
       .filter(trip => trip.nextTime);
